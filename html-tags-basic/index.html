@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<!--this is the structure of a comment block in html files
+    everything in this structure is not considered part of any
+    content of your webpage
+
+    Most tag elements in html are done in pairs
+    These are called opening and closing pairs
+    The Opening tag indicates the element being request
+    The closing tag indicates the element is complete
+    The closing tag has the same name as the opening tag PLUS
+    a slash (/) preceeding the name
+
+    Normally you will specify the language of the code on the web page
+    use the lang element parameter to specify your coding lang
+-->
+
+    <head>
+    <!-- this is an element where you can code supports for the 
+    browser to use in interpereting the webpage-->
+    <title>on the page title tab</title>
+
+    <!-- universal type ser which covers almost all the characters
+        and symbols in the world
+            https://www.w3schools.com/tags/tag-mete.asp
+    -->
+    <meta charset="utf-8">
+    <meta name="author" content="Samuel Fries">
+
+    <!-- there are several other meta tags that can be placed in your
+        head area.
+        One of these allows you to specify an author of the page
+    -->
+    </head>
+    <body>
+        <!--this area is used to place your browser page content-->
+        <!-- title heading tags
+                h1-h6 title tags major-minor-->
+        <h1> Basic HTML Tags</h1>
+        <h3>Paragraph tag</h3>
+        <!-- this is the coding block for your context in a paragraph tag
+             a paragraph tag belongs to the "block" group of tags
+            "block group of tags places your content on a new line"-->
+            <p>
+                The paragraph tag is a block tag. A block tag begins a new line in your
+                displayed web page on the browser. The browser does NOT display your content
+                in the physical style of how you have entered your code in your html file.
+            </p>
+            <p>
+                This is my second paragraph on the displayed browser page. It will start
+                a new line.
+            </p>
+            <!--if you wish to use a component of a reserved tag (or the whole tag)
+            you would be in trouble using the tag
+            instead: you can use special character strings to
+            represent components of the tag such as the < (&lt;) and
+            the > (&gt;) symbols-->
+            <h3>List tags: &lt;ol&gt; and &lt;ul&gt;</h3>
+            <!-- block tag
+                create an ordered list (numbered) using <ol>
+                create an unordered list (bulleted) using <ul>
+                items in the list are indicated using the <li>
+                    -->
+        <ol>
+            <li>Add extension Live Server for Go Live execution from VSC</li>
+            <li>Close and reopen VSC</li>
+            <li>look at the bottom right corner on the blue status line for the Go Live Button</li>
+            <li>this will run your page from VSC</li>
+            <li>Alter your page and save the file (ctrl + s), your
+                browser will automatically be updated
+            </li>
+        </ol>
+    </body>
+</html>
